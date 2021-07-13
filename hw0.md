@@ -9,7 +9,7 @@ I'd like to teach for Attack-Defense CTFs rather than jeopardy, since I enjoy re
 
 #### For starters, how about name, grade, and experience so I can get a handle on things.
 ```
-*ANSWER HERE*
+Joshua Zhang, Rising Junior, Studying cybersecurity for 2 years now.
 ```
 ### Let's try some quick practical knowledge.
 **FEEL FREE TO USE ALL RESOURCES AT YOUR DISPOSAL!**
@@ -37,7 +37,7 @@ Your home PC is running Windows. Describe how you would connect to your remote d
 </details>
 
 ```
-ANSWER HERE
+ssh yourname@rickycorp.org through powershell, then type the password in when prompted.
 ```
 
 Uh oh, your PC broke and you've decided to pick up a company laptop, running Ubuntu 20.04.2.0. It is an untouched and fresh installation, with no third party programs. You connect with the command ```ssh remotedesktops@rickycorp.org ``` , and you want to open and edit a file called welcomeFriend.md. What is the full command to do this?
@@ -47,7 +47,7 @@ Uh oh, your PC broke and you've decided to pick up a company laptop, running Ubu
 </details>
 
 ```
-ANSWER HERE
+nano welcomeFriend.md
 ```
 
 Did you use vim or gvim in the previous command? If you used gvim, you may have realized that you got a "could not display" error. How can you fix this, and why did it happen?
@@ -64,7 +64,7 @@ Did you use vim or gvim in the previous command? If you used gvim, you may have 
 </details>
 
 ```
-ANSWER HERE
+GVim produces a new window, which won't be forwarded to your client.  I think you just ssh in with -X with X11 forwarding enabled to get the window to appear.
 ```
 
 ### Advanced Text Manipulation
